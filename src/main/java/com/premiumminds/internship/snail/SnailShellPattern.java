@@ -77,7 +77,7 @@ class SnailShellPattern implements ISnailShellPattern {
       linha_baixo--;
       counter = 0;
 
-      // percorre os elementos de uma coluna de cima para baixo
+      // percorre os elementos de uma coluna de baixo para cima
       while(counter < linha_baixo - linha_cima + 1) {
         array[contador] = matrix[linha_baixo - counter][coluna_esq];
         contador++;
